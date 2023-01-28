@@ -11,6 +11,21 @@ h1{
 }
 img {
     width: 500px;
-    height: 300px;
+    height: 500px;
 }
 
+.fade-in-text {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 5s;
+}
+
+  background: #FCE97F;
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+  from { background-color: #FCE97F; }
+  to { background-color: #2EB07B; }
+}
