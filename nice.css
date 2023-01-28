@@ -2,16 +2,10 @@
 body {
  background: yellow;
 }
-h1{
-    font-weight: 700;
-    font-family: "Arial";
-    text-align: center;
-    text-decoration: underline; 
-    color: black;
-}
+
 img {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
 }
 
 .fade-in-text {
