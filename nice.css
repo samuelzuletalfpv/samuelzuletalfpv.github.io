@@ -1,6 +1,20 @@
-
 body {
- background: yellow;
+  background: #FCE97F;
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+  from { background-color: #FCE97F; }
+  to { background-color: #2EB07B; }
+}
+
+h1{
+    font-weight: 700;
+    font-family: "Arial";
+    text-align: center;
+    text-decoration: underline; 
+    color: black;
 }
 
 img {
@@ -14,12 +28,3 @@ img {
   animation: fadeIn 5s;
 }
 
-  background: #FCE97F;
-  animation: fadeBackground 6s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeBackground {
-  from { background-color: #FCE97F; }
-  to { background-color: #2EB07B; }
-}
