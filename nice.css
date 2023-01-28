@@ -6,7 +6,7 @@ body {
 
 @keyframes fadeBackground {
   from { background-color: #FFFAF0; }
-  to { background-color: #FFEBCD; }
+  to { background-color: #DEB887; }
 }
 
 h1{
