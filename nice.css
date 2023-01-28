@@ -1,17 +1,17 @@
 body {
   background: #FCE97F;
-  animation: fadeBackground 6s;
+  animation: fadeBackground 25s;
   animation-fill-mode: forwards;
 }
 
 @keyframes fadeBackground {
-  from { background-color: #FCE97F; }
-  to { background-color: #2EB07B; }
+  from { background-color: #FFFAF0; }
+  to { background-color: #FFEBCD; }
 }
 
 h1{
     font-weight: 700;
-    font-family: "Arial";
+    font-family: "Mongolian Baiti";
     text-align: center;
     text-decoration: underline; 
     color: black;
@@ -23,7 +23,7 @@ img {
 }
 
 .fade-in-text {
-  font-family: Arial;
+  font-family: Mongolian Baiti;
   font-size: 150px;
   animation: fadeIn 5s;
 }
